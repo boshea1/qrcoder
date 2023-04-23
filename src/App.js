@@ -11,6 +11,7 @@ function App() {
       QRCode.toCanvas(
         canvasRef.current,
         data || " ",
+        {width:200},
         (error) => error && console.error(error)
       );
     
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>QR Code generator</h1>
+      <h1 id='title'>QR Code generator</h1>
       <input  id='text-input'
               type='text'
              value={data}

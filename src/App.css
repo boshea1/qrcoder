@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
 .App {
   text-align: center;
   background:white;
   margin-top:200px;
-  box-shadow: 10px 10px 5px #aaaaaa;;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  font-family: 'Bruno Ace', cursive;
 }
 
 #text-input{
@@ -10,10 +13,13 @@
   width: 200px;
   height: 30px;
   text-align: center;
+  font-family: 'Bruno Ace', cursive;
 }
 
 .qr-container{
   margin:30px;
+  padding-bottom: 30px;
+  
 }
 
 canvas{
@@ -24,4 +30,8 @@ canvas{
 body{
   background: rgb(155,244,255);
 background: linear-gradient(90deg, rgba(155,244,255,1) 8%, rgba(187,227,227,1) 51%, rgba(150,237,255,1) 92%);
+}
+
+#title{
+  padding-top: 20px;
 }
